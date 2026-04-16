@@ -23,7 +23,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/stephencelis/SQLite.swift.git",
-            .upToNextMinor(from: "0.16.0")
+            .exact("0.16.0")
         )
     ],
     targets: [
